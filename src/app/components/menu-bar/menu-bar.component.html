@@ -1,0 +1,7 @@
+<div class="sticky-top menu">
+    <nav class="navbar">
+        <div class="container-fluid justify-content-center">
+            <button *ngFor="let menuItem of menuItems" [ngClass]="getBtnClass(menuItem)" (click)="goToPage(menuItem)">{{ menuItem.name }}</button>
+        </div>
+    </nav>
+</div>

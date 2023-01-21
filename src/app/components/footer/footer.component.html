@@ -1,0 +1,15 @@
+<div class="page-footer">
+    <nav class="navbar">
+        <div class="container justify-content-center">
+            <h1>Contact</h1>
+        </div>
+        <br>
+        <div class="container justify-content-center mb-4">
+            <h4><a [href]="getMailToString()">{{ mail }}</a></h4>
+        </div>
+        <br><br>
+        <div class="container justify-content-center mt-1">
+            <icon-link *ngFor="let link of socialMedia" [links]="link"></icon-link>
+        </div>
+    </nav>
+</div>

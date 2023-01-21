@@ -1,0 +1,19 @@
+.page-footer {
+    background-color: #7ab0ee;
+    height: 65px;
+    color: #fff;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.815);
+}
